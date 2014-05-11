@@ -85,6 +85,11 @@ Install Browserify and run
 browserify index.js --standalone SuperRegExp -o dist/main.js
 ```
 
+## Creating a Browser test bundle
+
+```bash
+browserify test.js --standalone Super-RegExp -o dist/test_bundle.js
+```
 
 ## Contributing
 
