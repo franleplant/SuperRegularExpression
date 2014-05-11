@@ -77,6 +77,15 @@ This way you can isolate the issue to each patterns.
 See `test.js` for more details.
 
 
+## Creating a Browser bundle
+
+Install Browserify and run
+
+```bash
+browserify index.js --standalone SuperRegExp -o dist/main.js
+```
+
+
 ## Contributing
 
 This is an Open Source project so please, if you think there are improvements to be
