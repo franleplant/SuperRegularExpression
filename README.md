@@ -6,7 +6,7 @@ Javascript Regular Expressions with Super Powers!
 
 Status: **Experimental**
 
-
+[![browser support](https://ci.testling.com/franleplant/superregularexpression.png)](https://ci.testling.com/franleplant/superregularexpression)
 
 ## Why a Regular Expression framework?
 
@@ -91,6 +91,8 @@ browserify index.js --standalone SuperRegExp -o dist/main.js
 ```bash
 browserify test.js --standalone Super-RegExp -o dist/test_bundle.js
 ```
+
+Or follow this [tutorial](https://ci.testling.com/guide/quick_start)
 
 ## Contributing
 
