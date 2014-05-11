@@ -23,10 +23,12 @@ does not provide:
 And that is exactly what **SRE** delivers.
 
 
-## Getting Started
-
 
 ## Using it
+
+```bash
+npm install super-regexp
+```
 
 The mini framework is tested using [Tape][1], run `npm test` to test it,
 and, inspect `test.js` to see what the Library can offer to your needs.
