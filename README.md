@@ -4,6 +4,9 @@ SRE: Super Regular Expression
 Javascript Regular Expressions with Super Powers!
 
 
+Status: **Experimental**
+
+
 
 ## Why a Regular Expression framework?
 
