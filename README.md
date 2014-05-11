@@ -38,6 +38,8 @@ This is an extract of `test.js`
 
 ```javascript
 
+var SRE = require('super-regexp');
+
 var s = SRE('Parse a root URL')
 			.pat('^(http|https)?', 'Protocol. Its optional.')
 			.pat('(://)?', 'Delimiter. Its optional.')
