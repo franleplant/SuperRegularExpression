@@ -1,5 +1,5 @@
 {
-  "name": "SuperRegularExpression",
+  "name": "super-regexp",
   "version": "0.0.1",
   "description": "Javascript Regular Expressions with Super Powers",
   "main": "index.js",
