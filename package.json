@@ -1,0 +1,21 @@
+{
+  "name": "SuperRegularExpression",
+  "version": "0.0.0",
+  "description": "Javascript Regular Expressions with Super Powers",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "RegExp",
+    "regular",
+    "expression",
+    "comments",
+    "super"
+  ],
+  "author": "franleplant@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "tape": "^2.12.3"
+  }
+}
