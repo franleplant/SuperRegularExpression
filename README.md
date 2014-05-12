@@ -71,6 +71,20 @@ test('SRE exec', function (t) {
 
 ```
 
+### In the browser
+
+```html
+<script src="dist/main.js"></script>
+<script>
+var sre = SuperRegExp()
+		.pat()
+		.flags();
+		
+sre.exec(string);
+</script>
+```
+
+
 ## Debugging
 
 SRE has a `debug(string)` method that is built to help you debug
