@@ -74,7 +74,7 @@ test('SRE exec', function (t) {
 ### In the browser
 
 ```html
-<script src="dist/main.js"></script>
+<script src="dist/superre.js"></script>
 <script>
 var sre = SuperRegExp()
 		.pat()
@@ -100,7 +100,7 @@ See `test.js` for more details.
 Install Browserify and run
 
 ```bash
-browserify index.js --standalone SuperRegExp -o dist/main.js
+browserify index.js --standalone SuperRegExp -o dist/superre.js
 ```
 
 ## Creating a Browser test bundle
