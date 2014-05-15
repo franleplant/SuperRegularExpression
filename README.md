@@ -121,6 +121,13 @@ that they are linted.
 
 
 
+## TODO
+
+- Polyfill IE array.forEach
+- Use  Native RegExp and `/as[\.]*d/.toString()` to offer better integration. 
+- Implement Named-capture. See nice [implementation](https://www.npmjs.org/package/named-regexp)
+
+
 ## License
 
 The MIT License (MIT)
