@@ -1,11 +1,21 @@
+//Apply polyfill for IE8 and IE9
+if (!Array.prototype.forEach) {
+  require('./polyfill');
+}
+
+
+
+
+
+
 function SuperRegularExpression(description) {
     var that = {};
 
 
     var flags, regexp_c,
-        patterns = []
+        patterns = [];
 
-    //TODO: polyfill array.forEach
+    
     function compile_reg_exp(patterns) {
 
         var reg_exp_str = '';

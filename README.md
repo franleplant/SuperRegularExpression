@@ -31,7 +31,7 @@ npm install super-regexp
 ```
 
 The mini framework is tested using [Tape][1], run `npm test` to test it,
-and, inspect `test.js` to see what the Library can offer to your needs.
+and, inspect `test.js` to see what the Library can offer.
 
 
 This is an extract of `test.js`
@@ -123,7 +123,6 @@ that they are linted.
 
 ## TODO
 
-- Polyfill IE array.forEach
 - Use  Native RegExp and `/as[\.]*d/.toString()` to offer better integration. 
 - Implement Named-capture. See nice [implementation](https://www.npmjs.org/package/named-regexp)
 
