@@ -158,3 +158,14 @@ Copyright 2014 franleplant@gmail.com
 
 
 [1]: https://www.npmjs.org/package/tape
+
+
+## Bumping to NPM
+This is just a reminder to my self.
+
+
+```bash
+# bump version
+npm version [<newversion> | major | minor | patch]
+npm publish .
+```
