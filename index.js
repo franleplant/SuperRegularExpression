@@ -5,9 +5,6 @@ if (!Array.prototype.forEach) {
 
 
 
-
-
-
 function SuperRegularExpression(description) {
     var that = {};
 
